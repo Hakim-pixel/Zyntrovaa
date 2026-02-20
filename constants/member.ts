@@ -23,4 +23,10 @@ export const MEMBERS = [
         instagram: '@auulia',
         images: '/images/members/Auy.jpeg'
     },
+    {
+        name: 'Dapruut',
+        quote: 'jika ingin dikejar maka nyopet lah',
+        instagram: '@dapruut',
+        images: '/images/members/Dapa.jpeg'
+    },
 ]

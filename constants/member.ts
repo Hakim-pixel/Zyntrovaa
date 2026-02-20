@@ -29,4 +29,10 @@ export const MEMBERS = [
         instagram: '@dapruut',
         images: '/images/members/Dapa.jpeg'
     },
+    {
+        name: 'musfiroh',
+        quote: 'musafir mencari roh kenalin aku musfiroh',
+        instagram: '@msyee',
+        images: '/images/members/mybini.jpeg'
+    },
 ]

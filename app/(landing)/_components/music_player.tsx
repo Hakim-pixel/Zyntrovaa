@@ -36,7 +36,7 @@ const MusicPlayer = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.2 }}
                     className='font-dmserif text-brown-700 text-2xl text-center -mb-3'>
-                    Welcome to
+                    Assalamualaikum to
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

@@ -7,7 +7,7 @@ export const MEMBERS = [
     },
     {
         name: 'Khalis',
-        quote: 'kena gigi uang kembali',
+        quote: 'something have to end for better things to begin',
         instagram: '@kkalishh',
         images: '/images/members/Khalis.jpeg'
     },

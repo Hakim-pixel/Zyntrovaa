@@ -41,4 +41,10 @@ export const MEMBERS = [
         instagram: '@tniatna_',
         images: '/images/members/Tania.jpeg'
     },
+    {
+        name: 'Sipa',
+        quote: 'Si putri suka aufa kenalin aku sipa',
+        instagram: '@shesfyy_',
+        images: '/images/members/Sipa.jpeg'
+    },
 ]

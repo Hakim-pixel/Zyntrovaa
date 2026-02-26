@@ -25,6 +25,17 @@ const Hero = () => {
                     alt=''
                 />
             </motion.div>
+
+            {/* Kata' Abangkuh */}
+            <motion.div
+                initial={{ opacity: 0, y: 8 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.6 }}
+                className='text-center mt-4'>
+                <p className='text-brown-700 italic text-sm md:text-base'>
+                    "First time healing with bringas." 
+                </p>
+            </motion.div>
         </div>
     )
 }

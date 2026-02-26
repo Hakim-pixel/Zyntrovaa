@@ -33,7 +33,7 @@ const Hero = () => {
                 transition={{ duration: 0.8, delay: 0.6 }}
                 className='text-center mt-4'>
                 <p className='text-brown-700 italic text-sm md:text-base'>
-                    "First time healing with bringas." 
+                    &quot;First time healing with bringas.&quot;
                 </p>
             </motion.div>
         </div>

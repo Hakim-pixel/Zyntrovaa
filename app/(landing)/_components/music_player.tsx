@@ -25,8 +25,16 @@ const MusicPlayer = () => {
         }
     }
 
+    // listen for external requests to close the overlay (e.g., header menu)
+    React.useEffect(() => {
+        const handler = () => setFirstClick(true)
+        window.addEventListener('closeMemoryOverlay', handler as EventListener)
+        return () => window.removeEventListener('closeMemoryOverlay', handler as EventListener)
+    }, [])
+
     return (
         <>
+            {/* anchor moved to Gallery heading so the title is the scroll target */}
             <div
                 className={`bg-gradient-to-b from-[#f7f1d9] to-[#bbaa87] w-full h-full fixed top-0 left-0 z-50 flex flex-col items-center justify-center gap-3 transition-all duration-1000 ease-in-out ${
                     firstClick ? 'top-[-100%]' : ''
@@ -36,14 +44,14 @@ const MusicPlayer = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.2 }}
                     className='font-dmserif text-brown-700 text-2xl text-center -mb-3'>
-                    Assalamualaikum to
+                    Welcome to
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.3 }}
                     className='uppercase font-dmserif text-brown-700 text-6xl text-center mb-5'>
-                    bringas
+                    Zyntrova
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

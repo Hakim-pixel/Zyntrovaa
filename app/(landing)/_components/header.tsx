@@ -9,13 +9,11 @@
 
      const handleNavigate = (id: string) => {
          setOpen(false)
-        // if user chose 'our-memory', signal the music overlay to close and scroll to top
+        // if user chose 'our-memory', signal the music overlay to close
         if (id === 'our-memory') {
             if (typeof window !== 'undefined') {
                 window.dispatchEvent(new CustomEvent('closeMemoryOverlay'))
-                window.scrollTo({ top: 0, behavior: 'smooth' })
             }
-            return
         }
 
         const el = document.getElementById(id)

@@ -48,3 +48,53 @@ export const MEMBERS = [
         images: '/images/members/Sipa.jpeg'
     },
 ]
+
+export const CLASS_MEMBERS: Record<string, Array<{name: string, quote: string, instagram: string, images: string}>> = {
+    'RPL': [
+        {
+            name: 'Contoh Siswa RPL',
+            quote: 'Kode adalah puisi',
+            instagram: '@siswa_rpl',
+            images: '/images/members/Hakim.jpeg'
+        },
+        
+        {
+            name: 'Contoh Siswa RPL',
+            quote: 'Kode adalah puisi',
+            instagram: '@siswa_rpl',
+            images: '/images/members/Hakim.jpeg'
+        }
+    ],
+    'TKJ': [
+        {
+            name: 'Contoh Siswa TKJ',
+            quote: 'Jaringan aman, hati nyaman',
+            instagram: '@siswa_tkj',
+            images: '/images/members/Khalis.jpeg'
+        }
+    ],
+    'MM': [
+        {
+            name: 'Contoh Siswa MM',
+            quote: 'Berkarya tanpa batas',
+            instagram: '@siswa_mm',
+            images: '/images/members/Aufa.jpeg'
+        }
+    ],
+    'OTKP': [
+        {
+            name: 'Contoh Siswa OTKP',
+            quote: 'Terorganisir dan efisien',
+            instagram: '@siswa_otkp',
+            images: '/images/members/Auy.jpeg'
+        }
+    ],
+    'AKL': [
+        {
+            name: 'Contoh Siswa AKL',
+            quote: 'Akurasi adalah kunci',
+            instagram: '@siswa_akl',
+            images: '/images/members/Dapa.jpeg'
+        }
+    ],
+}

@@ -11,7 +11,7 @@ const Gallery = () => {
     }));
 
     return (
-        <div>
+        <div id='our-memory' className='pt-24'>
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
